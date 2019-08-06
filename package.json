@@ -1,0 +1,23 @@
+{
+  "name": "es6-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "start": "babel script.js --watch --out-file script-compiled.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nri1234/ES6-practice.git"
+  },
+  "author": "Norbert M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nri1234/ES6-practice/issues"
+  },
+  "homepage": "https://github.com/nri1234/ES6-practice#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1"
+  }
+}
