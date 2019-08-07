@@ -8,13 +8,16 @@ console.log(c);
 const multiply = (x, y = 1) => x * y;
 console.log(multiply(5));
 //task 3
-const average = (...args) => {
-    let sum = 0;
-    for (let i = 0; i < args.length; i++) {
-        sum += args[i];
-    }
-    console.log(sum / args.length);
-};
+//const average = (...args) => {
+  //  let sum = 0;
+    //for (let i = 0; i < args.length; i++) {
+      //  sum += args[i];
+    //}
+    //console.log(sum / args.length);
+//};
+average(1, 2, 3, 4);
+const average = (...args) =>
+console.log(args.reduce((sum, arg) => sum + arg) / args.length);
 average(1, 2, 3, 4);
 //task 4
 const grades = [1, 5, 5, 5, 4, 3, 3, 2, 1];
